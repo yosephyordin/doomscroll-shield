@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/blocked.html"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://([a-z0-9-]+\\.)?instagram\\.com(/.*)?$",
+      "resourceTypes": ["main_frame"],
+      "excludedInitiatorDomains": ["chrome-extension://__MSG_@@extension_id__"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/blocked.html"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://([a-z0-9-]+\\.)?tiktok\\.com(/.*)?$",
+      "resourceTypes": ["main_frame"],
+      "excludedInitiatorDomains": ["chrome-extension://__MSG_@@extension_id__"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/blocked.html"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://([a-z0-9-]+\\.)?twitter\\.com(/.*)?$",
+      "resourceTypes": ["main_frame"],
+      "excludedInitiatorDomains": ["chrome-extension://__MSG_@@extension_id__"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/blocked.html"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://([a-z0-9-]+\\.)?facebook\\.com(/.*)?$",
+      "resourceTypes": ["main_frame"],
+      "excludedInitiatorDomains": ["chrome-extension://__MSG_@@extension_id__"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/blocked.html"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://([a-z0-9-]+\\.)?youtube\\.com(/.*)?$",
+      "resourceTypes": ["main_frame"],
+      "excludedInitiatorDomains": ["chrome-extension://__MSG_@@extension_id__"]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/blocked.html"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://([a-z0-9-]+\\.)?reddit\\.com(/.*)?$",
+      "resourceTypes": ["main_frame"],
+      "excludedInitiatorDomains": ["chrome-extension://__MSG_@@extension_id__"]
+    }
+  }
+]
